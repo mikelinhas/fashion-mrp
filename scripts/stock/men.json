@@ -1,0 +1,21 @@
+[
+	{"product_id": 6595, "product_variation": "BLACK S UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "black","size": "S", "stock": 0},
+	{"product_id": 6628, "product_variation": "BLACK M UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "black","size": "M", "stock": 0},
+	{"product_id": 6630, "product_variation": "BLACK L UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "black","size": "L", "stock": 0},
+	{"product_id": 7406, "product_variation": "Chocolate S UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "chocolate","size": "S", "stock": 0},
+	{"product_id": 7409, "product_variation": "Chocolate M UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "chocolate","size": "M", "stock": 0},
+	{"product_id": 7412, "product_variation": "Chocolate L UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "chocolate","size": "L", "stock": 0},
+	{"product_id": 6598, "product_variation": "FOREST GREEN S UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "forest green","size": "S", "stock": 0},
+	{"product_id": 6634, "product_variation": "FOREST GREEN M UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "forest green","size": "M", "stock": 0},
+	{"product_id": 6636, "product_variation": "FOREST GREEN L UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "forest green","size": "L", "stock": 0},
+	{"product_id": 6601, "product_variation": "MAUVE S UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "mauve","size": "S", "stock": 0},
+	{"product_id": 6640, "product_variation": "MAUVE M UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "mauve","size": "M", "stock": 0},
+	{"product_id": 6642, "product_variation": "MAUVE L UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "mauve","size": "L", "stock": 0},
+	{"product_id": 7426, "product_variation": "Mint S UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "mint","size": "S", "stock": 0},
+	{"product_id": 7429, "product_variation": "Mint M UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "mint","size": "M", "stock": 0},
+	{"product_id": 7432, "product_variation": "Mint L UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "mint","size": "L", "stock": 0},
+	{"product_id": 7435, "product_variation": "Pearl S UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "pearl","size": "S", "stock": 0},
+	{"product_id": 7438, "product_variation": "Pearl M UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "pearl","size": "M", "stock": 0},
+	{"product_id": 7441, "product_variation": "Pearl L UNIT", "parent_id": 6594, "category":"Men", "name":"Trunk", "color": "pearl","size": "L", "stock": 0}
+]
+

@@ -1,0 +1,16 @@
+//
+// Toggle button
+// --------------------------------------------------
+
+
+.toggle-button-container {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 60px;
+	width: 100%;
+}
+
+.toggle-button {
+	position: absolute !important;
+	right: 5px;
+}

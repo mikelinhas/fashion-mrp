@@ -1,0 +1,17 @@
+[
+	{"_id":"grobelastic",
+	 "name":"Grobelastic", 
+	 "description":"gomas y tirantes", 
+	 "CIF":"XXXXXXX", 
+	 "email":"admin@growelastic.es", 
+	 "phone":650799987,
+	 "tags":["underwear"]},
+
+	{"_id":"supplier2",
+	 "name":"Supplier2", 
+	 "description":"gomas y tirantes", 
+	 "CIF":"XXXXXXX", 
+	 "email":"admin@growelastic.es", 
+	 "phone":650799987,
+	 "tags":["underwear"]}
+]
