@@ -40,8 +40,8 @@
             urls: [
               {'name':'Stock', 'link':'/stock', 'active':0},
               {'name':'Production', 'link':'/production', 'active':0},
-              {'name':'Suppliers', 'link':'/suppliers', 'active':0},
               {'name':'Purchasing', 'link':'/purchasing', 'active':0},
+              {'name':'Suppliers', 'link':'/suppliers', 'active':0},
               {'name':'Producers', 'link':'/producers', 'active':0},
               {'name':'Logout', 'link':'/logout', 'active':0}
             ],

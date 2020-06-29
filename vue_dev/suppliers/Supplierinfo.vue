@@ -59,14 +59,14 @@
       
       <Supplierstock :supplier_id="supplier_id"></Supplierstock>
 
-      <button class="btn btn-default" @click="toggleMaterialCreation()"><i style="padding: 2px" class="fa fa-plus"></i> Añadir material </button>
+      <button class="btn btn-default" @click="toggleMaterialCreation()"><i style="padding: 2px" class="fa fa-plus"></i> Add material </button>
 
       <Creatematerial v-if="creating" :supplier="supplier"></Creatematerial>
 
       <br>
 
 
-      <button style="margin-top: 50px; float: right;" class="btn btn-danger" @click="deleteSupplier()"><i style="padding: 2px" class="fa fa-trash"></i> Eliminar proveedor de la base de datos </button>
+      <button style="margin-top: 50px; float: right;" class="btn btn-danger" @click="deleteSupplier()"><i style="padding: 2px" class="fa fa-trash"></i> Delete from database. </button>
 
     </div>
 

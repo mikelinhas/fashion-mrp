@@ -54,7 +54,7 @@
 
               <br>
 
-              <button v-if="ready" class="btn btn-success" @click="createSupplier()">Añadir a la base de datos</button>
+              <button v-if="ready" class="btn btn-success" @click="createSupplier()">Add to database</button>
               <button v-else class="btn btn-custom">Falta información</button>
         </div>
 
