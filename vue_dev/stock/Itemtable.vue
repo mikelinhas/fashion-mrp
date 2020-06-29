@@ -10,13 +10,13 @@
               Color
             </th>
             <th @click="sortBySize()"  :class="{ active: sortKey == 'size' }" class="talla">
-              Talla
+              Size
             </th>
             <th @click="sortByStock()"  :class="{ active: sortKey == 'stock' }" class="stock">
               Stock
             </th>
             <th @click="sortByOrdered()"  :class="{ active: sortKey == 'ordered' }" class="pedidos">
-              Pedidos
+              Ordered
             </th>
           </tr>
         </thead>

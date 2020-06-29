@@ -11,13 +11,13 @@
         <thead>
           <tr>
             <th @click="sortBy('external_ref')"  :class="{ active: sortKey == 'external_ref' }" class="table-col-4">
-              Referencia
+              Reference
             </th>
             <th @click="sortBy('name')"  :class="{ active: sortKey == 'name' }" class="table-col-4">
-              Artículo
+              Material
             </th>
             <th @click="sortBy('received')" :class="{ active: sortKey == 'received' }"  class="table-col-4">
-              Cantidad recibida
+              Quantity Received
             </th>
           </tr>
         </thead>

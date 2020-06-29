@@ -6,16 +6,16 @@
         <thead>
           <tr>
             <th @click="sortBy('external_ref')"  :class="{ active: sortKey == 'external_ref' }" class="table-col-3">
-              Referencia
+              Reference
             </th>
             <th @click="sortBy('name')"  :class="{ active: sortKey == 'name' }" class="table-col-3">
-              Artículo
+              Material
             </th>
             <th @click="sortBy('ordered')"  :class="{ active: sortKey == 'ordered' }" class="table-col-2">
-              Cantidad pedida
+              Ordered quantity
             </th>
             <th @click="sortBy('received')" :class="{ active: sortKey == 'received' }"  class="hide-print table-col-2">
-              Cantidad recibida
+              Received quantity
             </th>
             <th @click="sortBy('unit_price')" :class="{ active: sortKey == 'unit_price' }"  class="hide-print table-col-2">
               €

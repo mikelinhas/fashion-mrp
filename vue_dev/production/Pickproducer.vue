@@ -3,18 +3,18 @@
     <div>
         
       <div class="sticky-top-container"> 
-        <button v-if="generated == 0" class="btn btn-default sticky-top" @click="generateOrder()">Generar Pedido</button>
+        <button v-if="generated == 0" class="btn btn-default sticky-top" @click="generateOrder()">Generate Order</button>
         <div style="display: inline" v-if="generated" class="sticky-top">
-          <button class="btn btn-default" @click="goBack()">Atras </button>
-          <button class="btn btn-default" @click="processOrder()">Procesar Pedido</button>
+          <button class="btn btn-default" @click="goBack()">Back </button>
+          <button class="btn btn-default" @click="processOrder()">Process order</button>
         </div>
       </div>
 
       <form id="search">
-          Proveedor <input name="producer" v-model="producerFilter" onkeypress="return event.keyCode!=13">
+          Supplier <input name="producer" v-model="producerFilter" onkeypress="return event.keyCode!=13">
       </form>
 
-      <h2> Listado de productores </h2>
+      <h2> Producer List </h2>
       <Producertable :producers="producers" :producer-filter="producerFilter" new-order="1"></Producertable>        
       <br>
 

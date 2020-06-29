@@ -2,24 +2,24 @@
 
     <div>
 
-        <button class="btn btn-default" @click="redirect()" style="padding: 6px 12px; margin-top: 10px">Nueva Compra </button>
+        <button class="btn btn-default" @click="redirect()" style="padding: 6px 12px; margin-top: 10px">New Order </button>
         <br><br>
 
         <form id="search">
-            Buscar Proveedor <input name="query" v-model="searchFilter" onkeypress="return event.keyCode!=13">
+            Search Supplier <input name="query" v-model="searchFilter" onkeypress="return event.keyCode!=13">
         </form>
 
-        <h2> Pedidos de compra </h2>
+        <h2> Purchase Orders </h2>
         <Purchaseorderstable :orders="orders" :searchFilter="searchFilter"></Purchaseorderstable>        
         <br>
 
         <div v-if="show_closed">
-            <button class="btn btn-custom" @click="hideClosed()" style="padding: 6px 12px; margin-top: 10px">Ocultar pedidos cerrados </button>
-            <h2> Pedidos de compra cerrados </h2>
+            <button class="btn btn-custom" @click="hideClosed()" style="padding: 6px 12px; margin-top: 10px">Hide closed purchase orders </button>
+            <h2> Closed Purchase Orders </h2>
             <Purchaseorderstable :orders="closed_orders" :search-filter="searchFilter"></Purchaseorderstable>        
         </div>
         
-        <button v-else class="btn btn-custom" @click="showClosed()" style="padding: 6px 12px; margin-top: 10px">Mostrar pedidos cerrados </button>
+        <button v-else class="btn btn-custom" @click="showClosed()" style="padding: 6px 12px; margin-top: 10px">Show closed purchase orders </button>
         <br>
 
         <p>{{errorMessage}}</p>

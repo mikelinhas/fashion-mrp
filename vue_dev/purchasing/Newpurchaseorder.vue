@@ -3,15 +3,15 @@
     <div>
         
       <div class="sticky-top-container"> 
-        <button v-if="generated == 0" class="btn btn-default sticky-top" @click="generateOrder()">Generar Pedido</button>
+        <button v-if="generated == 0" class="btn btn-default sticky-top" @click="generateOrder()">Generate order</button>
         <div style="display: inline" v-if="generated" class="sticky-top">
-          <button class="btn btn-default" @click="goBack()">Atras </button>
-          <button class="btn btn-default" @click="processOrder()">Procesar Pedido</button>
+          <button class="btn btn-default" @click="goBack()">Back </button>
+          <button class="btn btn-default" @click="processOrder()">Process order</button>
         </div>
       </div>
       <h2>{{supplier.name}} </h2>
 
-      <h2>Precio Total: {{totalPrice | currency}}</h2>
+      <h2>Total price: {{totalPrice | currency}}</h2>
 
       <div v-if="generated == 0">
         <Newpurchaseorderinput

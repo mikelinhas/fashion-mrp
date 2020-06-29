@@ -2,46 +2,46 @@
 
     <div>
       <div class="sticky-top-container">
-          <button  class="btn btn-danger sticky-top" @click="deleteMaterial()"><i style="padding: 2px" class="fa fa-trash"></i> Eliminar de la base de datos </button>
+          <button  class="btn btn-danger sticky-top" @click="deleteMaterial()"><i style="padding: 2px" class="fa fa-trash"></i> Delete from database </button>
       </div>
       
       <transition name="slide-fade">
-        <h2 v-if="deleted" style="color: red">Eliminado del stock de material PARA SIEMPRE</h2>
+        <h2 v-if="deleted" style="color: red">Deleted from database</h2>
       </transition>
       
       <div v-if="!editing">
         <h2> {{material.name}}  -  {{material.description}}  </h2>   
         <h3> {{material.external_ref}} </h3>
-        <p> Precio unidad: {{material.unit_price | currency}} </p>
+        <p> Unit price: {{material.unit_price | currency}} </p>
 
       </div>
 
       <div v-if="editing" style="max-width: 500px">
-        <h2> Nombre del artículo: 
+        <h2> Material name: 
           <input class="form-control" type="text" name="name" :placeholder="material.name" v-model="material_edit.name"> 
         </h2>   
 
-        <p> Descripción: 
+        <p> Description: 
           <input class="form-control" type="text" name="description" :placeholder="material.description" v-model="material_edit.description">  
         </p>    
 
-        <p> Referencia Externa: 
+        <p> External reference: 
           <input class="form-control" type="text" name="external_ref" :placeholder="material.external_ref" v-model="material_edit.external_ref">  
         </p>  
 
-        <p> Precio por unidad: 
+        <p> Unit price: 
           <input class="form-control" type="number" step="0.01" name="unitprice" :placeholder="material.unit_price" v-model="material_edit.unit_price"> 
         </p>
 
-        <p> unidad de medida: 
+        <p> Measure unit: 
           <input class="form-control" type="text" name="mu" :placeholder="material.measure_unit" v-model="material_edit.measure_unit"> 
         </p>
 
-        <p> notas: 
+        <p> Notes: 
           <textarea class="form-control" type="text" name="notes" :placeholder="material.notes" v-model="material.notes"> </textarea>
         </p>
 
-        <button class="btn btn-default" @click="updateInfo()"> Actualizar información </button>  
+        <button class="btn btn-default" @click="updateInfo()"> Update information </button>  
 
         <br><br>
       </div>

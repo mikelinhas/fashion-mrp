@@ -2,7 +2,7 @@
 
     <div>
         <div class="sticky-top-container">
-            <button class="btn btn-default sticky-top" @click="toggleProducerCreation()"> Crear un nuevo fabricante </button>
+            <button class="btn btn-default sticky-top" @click="toggleProducerCreation()"> Create new producer </button>
         </div>
 
         <transition name="slide-fade">
@@ -11,10 +11,10 @@
         <br><br>
 
         <form id="search">
-            Buscar fabricante <input name="producers" v-model="producerFilter" onkeypress="return event.keyCode!=13">
+            Search producer <input name="producers" v-model="producerFilter" onkeypress="return event.keyCode!=13">
         </form>
 
-        <h2> Listado de fabricantes </h2>
+        <h2> Producer list </h2>
         <Producertable :producers="producers" :producer-filter="producerFilter"></Producertable>
         <br>
 

@@ -1,8 +1,8 @@
 <template>
 
     <div>
-        <p>Creado el  {{order_date | dateify }}</p>
-        <p v-if="latest_modification">Modificado el  {{latest_modification | dateify }}</p>
+        <p>Created on  {{order_date | dateify }}</p>
+        <p v-if="latest_modification">Modified on  {{latest_modification | dateify }}</p>
         <div class="toggle-button-container hide-print">
             <button class="btn btn-default" @click="printOrder()"><i style="padding: 2px" class="fa fa-print"></i></button>
         </div>

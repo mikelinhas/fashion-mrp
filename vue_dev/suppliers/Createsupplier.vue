@@ -10,7 +10,7 @@
             <div>
               
               <div style="width: 40%; display:inline-block;">
-                <label for="name">Nombre del proveedor</label>
+                <label for="name">Supplier name</label>
                 <input type="text" class="form-control" id="name" placeholder="ex. Brief" v-model="supplier.name">
               </div>
 
@@ -24,7 +24,7 @@
             <br>
 
             <div style="width: 60%; display:inline-block;">
-              <label for="description">Descripción</label>
+              <label for="description">Description</label>
               <input type="text" class="form-control" id="description" placeholder="" v-model="supplier.description">
             </div>
 
@@ -36,7 +36,7 @@
             </div>
 
             <div style="width: 40%; display:inline-block;">
-              <label for="phone">Teléfono</label>
+              <label for="phone">Telephone</label>
               <input type="tel" class="form-control" id="phone" :placeholder="650444999" v-model="supplier.phone">
             </div>
 

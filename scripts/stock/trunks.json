@@ -1,0 +1,21 @@
+[
+	{"category":"Trunks", "name":"Trunk", "color": "black","size": "S", "stock": 20},
+	{"category":"Trunks", "name":"Trunk", "color": "black","size": "M", "stock": 10},
+	{"category":"Trunks", "name":"Trunk", "color": "black","size": "L", "stock": 30},
+	{"category":"Trunks", "name":"Trunk", "color": "chocolate","size": "S", "stock": 0},
+	{"category":"Trunks", "name":"Trunk", "color": "chocolate","size": "M", "stock": 30},
+	{"category":"Trunks", "name":"Trunk", "color": "chocolate","size": "L", "stock": 5},
+	{"category":"Trunks", "name":"Trunk", "color": "forest green","size": "S", "stock": 12},
+	{"category":"Trunks", "name":"Trunk", "color": "forest green","size": "M", "stock": 11},
+	{"category":"Trunks", "name":"Trunk", "color": "forest green","size": "L", "stock": 90},
+	{"category":"Trunks", "name":"Trunk", "color": "mauve","size": "S", "stock": 40},
+	{"category":"Trunks", "name":"Trunk", "color": "mauve","size": "M", "stock": 2},
+	{"category":"Trunks", "name":"Trunk", "color": "mauve","size": "L", "stock": 5},
+	{"category":"Trunks", "name":"Trunk", "color": "mint","size": "S", "stock": 10},
+	{"category":"Trunks", "name":"Trunk", "color": "mint","size": "M", "stock": 0},
+	{"category":"Trunks", "name":"Trunk", "color": "mint","size": "L", "stock": 0},
+	{"category":"Trunks", "name":"Trunk", "color": "pearl","size": "S", "stock": 0},
+	{"category":"Trunks", "name":"Trunk", "color": "pearl","size": "M", "stock": 0},
+	{"category":"Trunks", "name":"Trunk", "color": "pearl","size": "L", "stock": 0}
+]
+

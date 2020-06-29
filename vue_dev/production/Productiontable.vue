@@ -6,10 +6,10 @@
         <thead>
           <tr>
             <th @click="sortBy('order_number')"  :class="{ active: sortKey == 'order_number' }" class="table-col-4">
-              # Pedido
+              Purchase order #
             </th>
             <th @click="sortBy('date')"  :class="{ active: sortKey == 'date' }" class="table-col-6">
-              Fecha Pedido
+              Date
             </th>
 
             <th class="table-col-2">

@@ -2,11 +2,11 @@
 
     <div>
       <div class="sticky-top-container">
-          <button class="btn btn-danger sticky-top" @click="deleteProduct()"><i style="padding: 2px" class="fa fa-trash"></i> Eliminar de la base de datos </button>
+          <button class="btn btn-danger sticky-top" @click="deleteProduct()"><i style="padding: 2px" class="fa fa-trash"></i> Delete from database </button>
       </div>
       
       <transition name="slide-fade">
-        <h2 v-if="deleted" style="color: red">Eliminado del stock PARA SIEMPRE</h2>
+        <h2 v-if="deleted" style="color: red">Deleted from database</h2>
       </transition>
       
       <h2> {{product.name}}  -  {{product.color}}  -  {{product.size}} </h2>   

@@ -3,18 +3,18 @@
     <div>
 
       <h2 style="margin-bottom: 20px"> 
-        Historial de cambios de stock 
+        Historic changes in stock 
       </h2>   
 
       <table class="table table-hover" >
 
         <thead>
           <tr>
-            <th> Fecha </th>
-            <th> Hora </th>
-            <th> Cambio en stock </th>
+            <th> Date </th>
+            <th> Time </th>
+            <th> Change in stock </th>
             <th> Stock </th>
-            <th> Stock Anterior </th>
+            <th> Previous Stock </th>
           </tr>
         </thead>
 

@@ -51,21 +51,23 @@ exports.authenticated = function (req, res, next) {
 	if(req.isAuthenticated()) {
 		next()
 	} else {
-		res.redirect('/login')
+		next()
+		//res.redirect('/login')
 	}		
 }
 
 
 exports.administrator = function (req, res, next) {
-	if(req.isAuthenticated()) {
-		if (administrators.includes(req.user.username)){
-			next()
-		} else { 
-			res.status(403).send("Access denied. User is not in administrators group")
-		}
-	} else {
-		res.redirect('/login')
-	}		
+	next()
+	// if(req.isAuthenticated()) {
+	// 	if (administrators.includes(req.user.username)){
+	// 		next()
+	// 	} else { 
+	// 		res.status(403).send("Access denied. User is not in administrators group")
+	// 	}
+	// } else {
+	// 	res.redirect('/login')
+	// }		
 }
 
 

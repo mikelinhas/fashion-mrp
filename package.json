@@ -1,5 +1,5 @@
 {
-  "name": "Nude",
+  "name": "FashionMRP",
   "version": "0.0.0",
   "engines": {
     "node": "8.4.0",
@@ -14,7 +14,6 @@
     "sass": "sass --watch ./client/css/sass/style.scss:./client/css/style.css"
   },
   "dependencies": {
-    "axios": "^0.19.2",
     "body-parser": "^1.17.2",
     "connect-mongo": "^2.0.3",
     "dotenv": "^7.0.0",
@@ -27,16 +26,12 @@
     "mongodb": "^2.2.31",
     "morgan": "^1.8.2",
     "passport": "^0.4.0",
-    "passport-google-oauth": "^1.0.0",
     "passport-local": "^1.0.0",
     "password-hash": "^1.2.2",
     "promise": "^8.0.2",
     "request": "^2.88.2",
     "serve-favicon": "^2.1.6",
     "uuid": "^3.3.2",
-    "vue": "^2.5.11",
-    "vue-select": "^3.10.3",
-    "vuejs-datepicker": "^1.6.2",
     "winston": "^3.2.1",
     "winston-mongodb": "^5.0.0"
   },
@@ -46,6 +41,10 @@
     "not ie <= 8"
   ],
   "devDependencies": {
+    "axios": "^0.19.2",
+    "vue": "^2.5.11",
+    "vue-select": "^3.10.3",
+    "vuejs-datepicker": "^1.6.2",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",

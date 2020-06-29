@@ -6,19 +6,19 @@
         <thead>
           <tr>
             <th @click="sortBy('purchase_number')"  :class="{ active: sortKey == 'purchase_number' }" class="table-col-2">
-              # Pedido
+              Purchase Order #
             </th>
             <th @click="sortBy('supplier_name')"  :class="{ active: sortKey == 'supplier_name' }" class="table-col-2">
-              Proveedor
+              Supplier
             </th>
             <th @click="sortBy('total_price')"  :class="{ active: sortKey == 'total_price' }" class="table-col-2">
-              Precio Total
+              Total Price
             </th>
             <th @click="sortBy('created_at')"  :class="{ active: sortKey == 'created_at' }" class="table-col-2">
-              Fecha Pedido
+              Order Date
             </th>
             <th @click="sortBy('delivery_date')"  :class="{ active: sortKey == 'delivery_date' }" class="table-col-2">
-              Fecha de Recepción
+              Reception Date
             </th class="table-col-1">
             <th>
                

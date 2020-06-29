@@ -10,11 +10,11 @@
             </th>
 
             <th @click="sortBy('name')"  :class="{ active: sortKey == 'name' }" class="table-col-4">
-              Nombre
+              Name
             </th>
 
             <th @click="sortBy('description')"  :class="{ active: sortKey == 'description' }" class="table-col-4">
-              Descripción
+              Description
             </th>
 
 

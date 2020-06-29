@@ -2,7 +2,7 @@
 
     <div>
         <div class="sticky-top-container">
-            <button class="btn btn-default sticky-top" @click="toggleProductCreation()"> Crear un nuevo producto </button>
+            <button class="btn btn-default sticky-top" @click="toggleProductCreation()"> Create a new product </button>
         </div>
 
         <transition name="slide-fade">

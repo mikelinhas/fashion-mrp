@@ -5,11 +5,11 @@
 
         <thead>
           <tr>
-            <th style="width: 30%"> Artículo </th>
-            <th style="width: 30%"> Descripción </th>
-            <th> Referencia del proveedor </th>
-            <th> Unidad de medida </th>
-            <th> Precio ud. </th>
+            <th style="width: 30%"> Material </th>
+            <th style="width: 30%"> Description </th>
+            <th> Supplier's reference </th>
+            <th> Measure unit </th>
+            <th> Unit price </th>
             <th> </th>
           </tr>
         </thead>

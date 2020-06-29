@@ -2,19 +2,19 @@
 
     <div>
 
-        <button class="btn btn-default" @click="redirect()" style="padding: 6px 12px; margin-top: 10px">Nuevo Pedido </button>
+        <button class="btn btn-default" @click="redirect()" style="padding: 6px 12px; margin-top: 10px">New Order </button>
 
-        <h2> Pedidos de producción </h2>
+        <h2> Production Orders </h2>
         <Productiontable :orders="orders"></Productiontable>        
         <br>
 
         <div v-if="show_closed">
-            <button class="btn btn-custom" @click="hideClosed()" style="padding: 6px 12px; margin-top: 10px">Ocultar pedidos cerrados </button>
-            <h2> Pedidos de producción cerrados </h2>
+            <button class="btn btn-custom" @click="hideClosed()" style="padding: 6px 12px; margin-top: 10px">Hide closed orders </button>
+            <h2> Closed Production Orders </h2>
             <Productiontable :orders="closed_orders" ty></Productiontable>        
         </div>
         
-        <button v-else class="btn btn-custom" @click="showClosed()" style="padding: 6px 12px; margin-top: 10px">Mostrar pedidos cerrados </button>
+        <button v-else class="btn btn-custom" @click="showClosed()" style="padding: 6px 12px; margin-top: 10px">Show closed orders </button>
         <br>
 
         <p>{{errorMessage}}</p>

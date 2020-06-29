@@ -10,12 +10,12 @@
             <div>
               
               <div style="width: 50%; display:inline-block;">
-                <label for="name">Nombre del producto</label>
+                <label for="name">Product Name</label>
                 <input type="text" class="form-control" id="name" placeholder="ex. Brief" v-model="product.name">
               </div>
 
               <div style="width: 20%; display:inline-block; margin-left: 30px;">
-                <label for="name">Stock Inicial</label>
+                <label for="name">Initial Stock</label>
                 <input type="number" class="form-control" id="stock" placeholder="20" v-model="product.stock">
               </div>
 
@@ -24,16 +24,16 @@
             <br>
 
             <div style="width: 70%; display:inline-block;">
-              <label for="selectCategory">Seleccionar categoría</label>
+              <label for="selectCategory">Select Category</label>
               <select class="form-control" id="selectCategory" v-model="product.category">
                 <option v-for="category in categories">{{category}}</option>
               </select>
             </div>
-            <button class="btn btn-default" @click="addCategory()">Añadir categoria</button>
+            <button class="btn btn-default" @click="addCategory()">Add category</button>
 
             <div class="form-check form-check-inline">
               <div style="margin-bottom: 5px">
-                <label for="color"> Colores </label>
+                <label for="color"> Colors </label>
                 <input type="text" id="color" v-model="model_color">
                 <button @click="addColor()">+</button>
                 <button @click="checkAllColors()" v-if="show_color_button">++</button>
@@ -47,7 +47,7 @@
 
             <div class="form-check form-check-inline">
               <div style="margin-bottom: 5px">
-                <label for="clothingsize"> Tallas de ropa </label>
+                <label for="clothingsize"> Clothing sizes </label>
                 <input type="text" id="clothingsize" v-model="clothing_size">
                 <button @click="addClothingSize()">+</button>
                 <button @click="checkAllClothingSizes()" v-if="show_clothing_button">++</button>
@@ -61,7 +61,7 @@
 
             <div class="form-check form-check-inline">
               <div style="margin-bottom: 5px">
-                <label for="shoesize"> Tallas de calzado </label>
+                <label for="shoesize"> Shoe sizes </label>
                 <input type="number" step="0.5" id="shoesize" v-model="shoe_size">
                 <button @click="addShoeSize()">+</button>
                 <button @click="checkAllShoeSizes()" v-if="show_shoe_button">++</button>
@@ -84,8 +84,8 @@
 
               <br>
 
-              <button v-if="ready" class="btn btn-success" @click="createProduct()">Añadir a la base de datos</button>
-              <button v-else class="btn btn-custom">Falta información</button>
+              <button v-if="ready" class="btn btn-success" @click="createProduct()">Add to database</button>
+              <button v-else class="btn btn-custom">Some information is missing</button>
         </div>
 
 

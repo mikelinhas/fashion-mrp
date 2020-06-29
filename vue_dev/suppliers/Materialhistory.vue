@@ -2,17 +2,17 @@
 
     <div>
 
-      <h2> Historial de cambios de stock </h2>   
+      <h2> Historic stock changes </h2>   
 
       <table class="table table-hover" style>
 
         <thead>
           <tr>
-            <th> Fecha </th>
-            <th> Almacén </th>
-            <th> Stock en almacén </th>
-            <th> Stock total </th>
-            <th> Cambio en stock </th>
+            <th> Date </th>
+            <th> Warehouse </th>
+            <th> Warehouse's stock </th>
+            <th> Total stock </th>
+            <th> Change in stock </th>
           </tr>
         </thead>
 

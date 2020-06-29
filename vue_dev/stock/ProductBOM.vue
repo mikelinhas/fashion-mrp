@@ -13,9 +13,9 @@
 
         <thead>
           <tr>
-            <th class="table-col-4"> Proveedor </th>
+            <th class="table-col-4"> Supplier </th>
             <th class="table-col-4"> Material </th>
-            <th class="table-col-3"> Cantidad </th>
+            <th class="table-col-3"> Quantity </th>
             <th class="table-col-1"></th>
           </tr>
         </thead>
@@ -37,7 +37,7 @@
               <v-select :options="supplierMaterials(material.supplier)"
                         label="name"
                         v-model="material.selected_material"
-                        placeholder="Elige un material">
+                        placeholder="Select material">
               </v-select>
             </td>
             <td>
@@ -57,12 +57,12 @@
 
         <br>
 
-        <button v-if="edit" class="btn btn-default" @click="addMaterial()">Añadir material</button>
+        <button v-if="edit" class="btn btn-default" @click="addMaterial()">Add material</button>
 
 
       </table>
 
-      <p style="text-decoration: underline;">Notas</p>
+      <p style="text-decoration: underline;">Notes</p>
       <p>{{BOM.notes}}</p> 
 
       <p>{{errorMessage}}</p>
@@ -145,6 +145,7 @@
           axios.get(url)
             .then (function (response) {
               vueVars.suppliers = response.data
+              console.log(response.data)
             })
             .catch(function (error) {
               vueVars.errorMessage = "There has been an Error! Oh no.."

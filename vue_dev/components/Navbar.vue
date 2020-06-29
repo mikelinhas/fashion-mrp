@@ -7,7 +7,7 @@
             <i class="fa fa-bars fa-lg"></i>
           </button>
           <a class="navbar-brand" href="">
-            <img src="/nude.ico">
+            <img src="/ropa.png">
           </a>
         </div>
 
@@ -39,10 +39,10 @@
           return {
             urls: [
               {'name':'Stock', 'link':'/stock', 'active':0},
-              {'name':'Producción', 'link':'/production', 'active':0},
-              {'name':'Proveedores', 'link':'/suppliers', 'active':0},
-              {'name':'Compras', 'link':'/purchasing', 'active':0},
-              {'name':'Fabricantes', 'link':'/producers', 'active':0},
+              {'name':'Production', 'link':'/production', 'active':0},
+              {'name':'Suppliers', 'link':'/suppliers', 'active':0},
+              {'name':'Purchasing', 'link':'/purchasing', 'active':0},
+              {'name':'Producers', 'link':'/producers', 'active':0},
               {'name':'Logout', 'link':'/logout', 'active':0}
             ],
           }

@@ -1,7 +1,7 @@
 <template>
 
     <div>
-        <p style="margin-bottom: -20px">Creado el  {{order.created_at | dateify }}</p>
+        <p style="margin-bottom: -20px">Created on  {{order.created_at | dateify }}</p>
         <div class="sticky-top-container">
             <button class="btn btn-default sticky-top hide-print" @click="printOrder()"><i style="padding: 2px;" class="fa fa-print"></i></button>
         </div>
@@ -11,12 +11,12 @@
 
         <div class="ordered-table">
           <h2 class="hide-print">
-            Precio total: {{order.total_price + totalPriceDiff | currency}} 
+            Total price: {{order.total_price + totalPriceDiff | currency}} 
             <span :class="{ added: totalPriceDiff > 0, subtracted: totalPriceDiff < 0 }"> 
               {{totalPriceDiff | currenstringify}} 
             </span>
           </h2>
-          <p class="hide-print">Fecha estimada de recepción:  
+          <p class="hide-print">Estimated reception date:  
             <datepicker v-model="order.delivery_date" format="dd/MM/yy"></datepicker>
             <button class="btn btn-default" @click="updateDeliveryDate()"><i style="padding: 2px 3px;" class="fa fa-level-up"></i></button>          
           </p>

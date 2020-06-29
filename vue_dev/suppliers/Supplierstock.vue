@@ -2,18 +2,18 @@
 
     <div>
 
-      <h2> Stock de artículos </h2>   
+      <h2> Material stock </h2>   
 
       <table class="table table-hover" style>
 
         <thead>
           <tr>
             <th></th>
-            <th @click="sortBy('external_ref')"  :class="{ active: sortKey == 'external_ref' }" class="table-col-3"> Referencia </th>
-            <th @click="sortBy('name')"  :class="{ active: sortKey == 'name' }" class="table-col-3"> Artículo </th>
-            <th @click="sortByStock('stock')"  :class="{ active: sortKey == 'stock' }" class="table-col-2"> Stock Total </th>
-            <th @click="sortByOrdered('ordered')"  :class="{ active: sortKey == 'ordered' }" class="table-col-2"> Pedido </th>
-            <th @click="sortBy('will_receive_on')"  :class="{ active: sortKey == 'will_receive_on' }" class="table-col-3"> Próxima recepción </th>
+            <th @click="sortBy('external_ref')"  :class="{ active: sortKey == 'external_ref' }" class="table-col-3"> Reference </th>
+            <th @click="sortBy('name')"  :class="{ active: sortKey == 'name' }" class="table-col-3"> Material </th>
+            <th @click="sortByStock('stock')"  :class="{ active: sortKey == 'stock' }" class="table-col-2"> Total Stock </th>
+            <th @click="sortByOrdered('ordered')"  :class="{ active: sortKey == 'ordered' }" class="table-col-2"> Ordered </th>
+            <th @click="sortBy('will_receive_on')"  :class="{ active: sortKey == 'will_receive_on' }" class="table-col-3"> Next reception </th>
           </tr>
         </thead>
 

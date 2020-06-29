@@ -8,19 +8,19 @@
         <thead>
           <tr>
             <th @click="sortBy('external_ref')"  :class="{ active: sortKey == 'external_ref' }" class="table-col-3">
-              Referencia
+              Reference
             </th>
             <th @click="sortBy('description')"  :class="{ active: sortKey == 'description' }" class="table-col-3">
-              Artículo
+              Material
             </th>
             <th @click="sortBy('stock')"  :class="{ active: sortKey == 'stock' }" class="table-col-2">
               Stock
             </th>
             <th @click="sortBy('ordered')"  :class="{ active: sortKey == 'ordered' }" class="table-col-2">
-              Pedido
+              Ordered
             </th>
             <th @click="sortBy('unit_price')"  :class="{ active: sortKey == 'unit_price' }" class="table-col-2">
-              Precio
+              Price
             </th>
           </tr>
         </thead>

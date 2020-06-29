@@ -9,10 +9,10 @@
         <thead>
           <tr>
             <th></th>
-            <th @click="sortBy('external_ref')"  :class="{ active: sortKey == 'external_ref' }" class="table-col-3"> Referencia </th>
-            <th @click="sortBy('name')"  :class="{ active: sortKey == 'name' }" class="table-col-3"> Artículo </th>
+            <th @click="sortBy('external_ref')"  :class="{ active: sortKey == 'external_ref' }" class="table-col-3"> Reference </th>
+            <th @click="sortBy('name')"  :class="{ active: sortKey == 'name' }" class="table-col-3"> Material </th>
             <th @click="sortBy('stock')"  :class="{ active: sortKey == 'stock' }" class="table-col-3"> Stock </th>
-            <th @click="sortBy('in_production')"  :class="{ active: sortKey == 'in_production' }" class="table-col-3"> En Producción </th>
+            <th @click="sortBy('in_production')"  :class="{ active: sortKey == 'in_production' }" class="table-col-3"> In Production </th>
           </tr>
         </thead>
 

@@ -1,5 +1,5 @@
 [
-	{"product_id": 11113, "category":"Socks", "name":"Cotton Ribbed Socks", "color":"azul", "size":"Onesize", "stock":20},
-	{"product_id": 11114, "category":"Socks", "name":"Cotton Ribbed Socks", "color":"granate", "size":"Onesize", "stock":58},
-	{"product_id": 11115, "category":"Socks", "name":"Cotton Ribbed Socks", "color":"gris", "size":"Onesize", "stock":32}
+	{"category":"Socks", "name":"Cotton Ribbed Socks", "color":"red", "size":"Onesize", "stock":20},
+	{"category":"Socks", "name":"Cotton Ribbed Socks", "color":"brown", "size":"Onesize", "stock":58},
+	{"category":"Socks", "name":"Cotton Ribbed Socks", "color":"pupmkin", "size":"Onesize", "stock":32}
 ]

@@ -102,9 +102,9 @@ exports.createProduct = function (req,res) {
 
 	console.log("Creating stock product: " + product.name)
 
-	mongodb.findByID("users", req.session.passport.user, function(err,result){
-		console.log(result.user + " created the new product")
-	})
+	// mongodb.findByID("users", req.session.passport.user, function(err,result){
+	// 	console.log(result.user + " created the new product")
+	// })
 
 	mongodb.insert(collection, products_array, function (err,result) {
 		if (err){

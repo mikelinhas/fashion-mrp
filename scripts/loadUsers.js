@@ -3,7 +3,7 @@ const mongodb = require('../database/mongo');
 const fs = require("fs");
 const passwordHash = require('password-hash');
 
-var hashed_password = passwordHash.generate('thenudelabel89');
+var hashed_password = passwordHash.generate('aaa');
 //var hashed_password_trini = passwordHash.generate('---')
 
 var users = [

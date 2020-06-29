@@ -3,10 +3,10 @@
     <div>
         
       <div class="sticky-top-container"> 
-        <button v-if="generated == 0" class="btn btn-default sticky-top" @click="generateOrder()">Generar Pedido</button>
+        <button v-if="generated == 0" class="btn btn-default sticky-top" @click="generateOrder()">Generate Order</button>
         <div style="display: inline" v-if="generated" class="sticky-top">
-          <button class="btn btn-default" @click="goBack()">Atras </button>
-          <button class="btn btn-default" @click="processOrder()">Procesar Pedido</button>
+          <button class="btn btn-default" @click="goBack()">Back </button>
+          <button class="btn btn-default" @click="processOrder()">Process Order</button>
         </div>
       </div>
 

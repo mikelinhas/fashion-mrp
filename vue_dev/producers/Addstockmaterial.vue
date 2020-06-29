@@ -5,8 +5,8 @@
 
         <thead>
           <tr>
-            <th style="width: 30%"> Proveedor </th>
-            <th> Referencia del proveedor </th>
+            <th style="width: 30%"> Supplier </th>
+            <th> Supplier's reference </th>
             <th> Stock </th>
             <th> </th>
           </tr>

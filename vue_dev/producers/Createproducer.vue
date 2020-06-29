@@ -10,7 +10,7 @@
             <div>
               
               <div style="width: 40%; display:inline-block;">
-                <label for="name">Nombre del productor</label>
+                <label for="name">Producer's name</label>
                 <input type="text" class="form-control" id="name" placeholder="ex. Brief" v-model="producer.name">
               </div>
 
@@ -24,7 +24,7 @@
             <br>
 
             <div style="width: 60%; display:inline-block;">
-              <label for="description">Descripción</label>
+              <label for="description">Description</label>
               <input type="text" class="form-control" id="description" placeholder="" v-model="producer.description">
             </div>
 
@@ -36,7 +36,7 @@
             </div>
 
             <div style="width: 40%; display:inline-block;">
-              <label for="phone">Teléfono</label>
+              <label for="phone">Telephone</label>
               <input type="tel" class="form-control" id="phone" :placeholder="650444999" v-model="producer.phone">
             </div>
 
@@ -52,8 +52,8 @@
 
               <br>
 
-              <button v-if="ready" class="btn btn-success" @click="createProducer()">Añadir a la base de datos</button>
-              <button v-else class="btn btn-custom">Falta información</button>
+              <button v-if="ready" class="btn btn-success" @click="createProducer()">Add to database</button>
+              <button v-else class="btn btn-custom">Some information is missing.</button>
         </div>
 
 

@@ -7,7 +7,7 @@
       </div>
 
       <transition name="slide-fade">
-        <h2 v-if="deleted" style="color: red">Eliminado PARA SIEMPRE</h2>
+        <h2 v-if="deleted" style="color: red">Erased from database</h2>
       </transition>
 
       <div v-if="!editing">
@@ -20,11 +20,11 @@
       </div>
 
       <div v-if="editing" style="max-width: 500px">
-        <h2> Nombre: 
+        <h2> Name: 
           <input class="form-control" type="text" name="name" :placeholder="producer.name" v-model="producer_edit.name"> 
         </h2>   
 
-        <p> Descripción: 
+        <p> Description: 
           <input class="form-control" type="text" name="description" :placeholder="producer.description" v-model="producer_edit.description">  
         </p>  
 
@@ -36,15 +36,15 @@
           <input class="form-control" type="email" name="email" :placeholder="producer.email" v-model="producer_edit.email"> 
         </p>  
 
-        <p> teléfono: 
+        <p> telephone: 
           <input class="form-control" type="tel" name="phone" :placeholder="producer.phone" v-model="producer_edit.phone"> 
         </p>
 
-        <p> notas: 
+        <p> notes: 
           <textarea class="form-control" type="text" name="notes" :placeholder="producer.notes" v-model="producer.notes"> </textarea>
         </p>
 
-        <button class="btn btn-default" @click="updateInfo()"> Actualizar información </button>  
+        <button class="btn btn-default" @click="updateInfo()"> Update information </button>  
 
         <br><br>
       </div>
