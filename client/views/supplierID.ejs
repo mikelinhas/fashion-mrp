@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title> Ropa | Suppliers </title>
+
+    <!-- ICON -->
+    <link href="/r.ico" rel="icon" type="image/x-icon" />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- JavaScripts -->
+    <script rel="javascript" src="/js/jquery.min.js"></script>
+    <script rel="javascript" src="/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      
+      <!-- HEADER -->
+
+      <navbar activeurl="/suppliers"></navbar>
+
+      <!-- BODY (app) -->
+
+      <div class="row" style="margin:15px">
+        <div class="container">
+          <h1 style="font-weight: bold; border-bottom: 1px solid lightgrey; width: 100%">Supplier with ID: <%= supplier_id %></h1>
+
+          <Supplierinfo supplier_id="<%= supplier_id %>"></Supplierinfo>
+
+        </div>
+
+      </div>
+
+      <footer>
+        <p> Created by Miguel Zarco Gillett</p>
+      </footer>             
+
+    </div>
+
+  </body>
+
+<script rel="javascript" src="/js/suppliers.js"></script>
+
+
+</html>
+

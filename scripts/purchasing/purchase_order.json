@@ -1,0 +1,32 @@
+{
+	"purchase_number" : "19-0001",
+	"supplier_id": "grobelastic",
+	"supplier_name": "Grobelastic",
+	"created_at" : "2019-06-07T16:16:37.228Z",
+	"delivery_date" : "2019-06-07T16:16:37.228Z",
+	"closed" : 0,
+	"materials" : [
+		{
+			"material_id" : "5ebfe207759f6dd5f5bb3e2c",
+			"external_ref" : 1,
+			"name" : "Goma tirante ancho verde",
+			"ordered" : 10,
+			"received": 0
+		},
+		{
+			"material_id" : "5ebfe207759f6dd5f5bb3e2d",
+			"external_ref" : 1,
+			"name" : "Goma tirante fino verde",
+			"ordered" : 10,
+			"received": 0
+		},
+		{
+			"material_id" : "5ebfe207759f6dd5f5bb3e2e",
+			"external_ref" : 1,
+			"name" : "Hebilla",
+			"ordered" : 10,
+			"received": 0
+		}
+	]
+
+}

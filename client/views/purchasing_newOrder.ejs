@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title> Ropa | Purchasing </title>
+
+    <!-- ICON -->
+    <link href="/r.ico" rel="icon" type="image/x-icon" />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- JavaScripts -->
+    <script rel="javascript" src="/js/jquery.min.js"></script>
+    <script rel="javascript" src="/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      
+      <!-- HEADER -->
+
+      <navbar activeurl="/purchasing"></navbar>
+
+      <!-- BODY (app) -->
+
+      <div class="row" style="margin:15px">
+        <div class="container">
+          <h1 style="font-weight: bold; border-bottom: 1px solid lightgrey; width: 100%">New Order: <%= purchase_number %> </h1>
+
+          <Newpurchaseorder supplier_id="<%= supplier_id %>" purchase_number="<%= purchase_number %>"></Newpurchaseorder>
+
+        </div>
+
+      </div>
+
+      <footer>
+        <p> Created by Miguel Zarco Gillett</p>
+      </footer>             
+
+    </div>
+
+  </body>
+
+<script rel="javascript" src="/js/purchasing.js"></script>
+
+
+</html>
+

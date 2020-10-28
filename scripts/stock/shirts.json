@@ -1,0 +1,21 @@
+[
+	{"category":"Shirts", "name":"Plain shirt", "color": "black","size": "S", "stock": 20},
+	{"category":"Shirts", "name":"Plain shirt", "color": "black","size": "M", "stock": 10},
+	{"category":"Shirts", "name":"Plain shirt", "color": "black","size": "L", "stock": 30},
+	{"category":"Shirts", "name":"Plain shirt", "color": "chocolate","size": "S", "stock": 0},
+	{"category":"Shirts", "name":"Plain shirt", "color": "chocolate","size": "M", "stock": 30},
+	{"category":"Shirts", "name":"Plain shirt", "color": "chocolate","size": "L", "stock": 5},
+	{"category":"Shirts", "name":"Plain shirt", "color": "forest green","size": "S", "stock": 12},
+	{"category":"Shirts", "name":"Plain shirt", "color": "forest green","size": "M", "stock": 11},
+	{"category":"Shirts", "name":"Plain shirt", "color": "forest green","size": "L", "stock": 90},
+	{"category":"Shirts", "name":"Plain shirt", "color": "mauve","size": "S", "stock": 40},
+	{"category":"Shirts", "name":"Plain shirt", "color": "mauve","size": "M", "stock": 2},
+	{"category":"Shirts", "name":"Plain shirt", "color": "mauve","size": "L", "stock": 5},
+	{"category":"Shirts", "name":"Plain shirt", "color": "mint","size": "S", "stock": 10},
+	{"category":"Shirts", "name":"Plain shirt", "color": "mint","size": "M", "stock": 0},
+	{"category":"Shirts", "name":"Plain shirt", "color": "mint","size": "L", "stock": 0},
+	{"category":"Shirts", "name":"Plain shirt", "color": "pearl","size": "S", "stock": 0},
+	{"category":"Shirts", "name":"Plain shirt", "color": "pearl","size": "M", "stock": 0},
+	{"category":"Shirts", "name":"Plain shirt", "color": "pearl","size": "L", "stock": 0}
+]
+

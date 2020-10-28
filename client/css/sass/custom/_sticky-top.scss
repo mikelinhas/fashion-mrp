@@ -1,0 +1,17 @@
+//
+// Sticky top
+// --------------------------------------------------
+
+
+
+.sticky-top-container {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 60px;
+	width: 100%;
+}
+
+.sticky-top {
+	position: absolute !important;
+	right: 5px;
+}
