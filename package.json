@@ -14,12 +14,12 @@
     "sass": "sass --watch ./client/css/sass/style.scss:./client/css/style.css"
   },
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.20.1",
     "connect-mongo": "^2.0.3",
     "dotenv": "^7.0.0",
     "ejs": "^2.5.7",
     "errorhandler": "^1.5.0",
-    "express": "^4.15.4",
+    "express": "^4.18.2",
     "express-session": "^1.15.5",
     "json2csv": "^4.3.5",
     "method-override": "^3.0.0",
